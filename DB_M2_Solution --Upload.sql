@@ -1265,5 +1265,3 @@ GO
 --EXEC Procedures_CreateAllTables
 
 
-
-
