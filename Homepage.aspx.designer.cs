@@ -11,7 +11,7 @@ namespace WebApplication1
 {
 
 
-    public partial class Advisor_HomePage
+    public partial class Homepage
     {
 
         /// <summary>
@@ -24,39 +24,30 @@ namespace WebApplication1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// B_Back control.
+        /// B_Student control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Back;
+        protected global::System.Web.UI.WebControls.Button B_Student;
 
         /// <summary>
-        /// Label1 control.
+        /// B_Advisor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Button B_Advisor;
 
         /// <summary>
-        /// B_Advisor_Homepage_Register control.
+        /// B_Admin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Advisor_Homepage_Register;
-
-        /// <summary>
-        /// B_Advisor_Homepage_Login control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Advisor_Homepage_Login;
+        protected global::System.Web.UI.WebControls.Button B_Admin;
     }
 }

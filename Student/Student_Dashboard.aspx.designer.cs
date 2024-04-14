@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.Advisor
+namespace WebApplication1.Student
 {
 
 
-    public partial class Advisor_Dashboard
+    public partial class Student_Dashboard
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace WebApplication1.Advisor
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// B_A_Logout control.
+        /// B_Logout control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_A_Logout;
+        protected global::System.Web.UI.WebControls.Button B_Logout;
 
         /// <summary>
         /// L_Welcome control.
@@ -42,624 +42,651 @@ namespace WebApplication1.Advisor
         protected global::System.Web.UI.WebControls.Label L_Welcome;
 
         /// <summary>
-        /// B_A_D_View_All_Students control.
+        /// B_S_PN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_A_D_View_All_Students;
+        protected global::System.Web.UI.WebControls.Button B_S_PN;
 
         /// <summary>
-        /// D_All_Students control.
+        /// D_PN control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_All_Students;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_PN;
 
         /// <summary>
-        /// L_Students control.
+        /// S_phonenumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Students;
+        protected global::System.Web.UI.WebControls.TextBox S_phonenumber;
 
         /// <summary>
-        /// B_Clear_Students control.
+        /// S_PN_Cancel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Clear_Students;
+        protected global::System.Web.UI.WebControls.Button S_PN_Cancel;
 
         /// <summary>
-        /// B_A_D_Insert_Graduation_Plan control.
+        /// S_PN_add control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_A_D_Insert_Graduation_Plan;
+        protected global::System.Web.UI.WebControls.Button S_PN_add;
 
         /// <summary>
-        /// D_Gradplan_Insert control.
+        /// R1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_Gradplan_Insert;
+        protected global::System.Web.UI.WebControls.Label R1;
 
         /// <summary>
-        /// L_Semester_Code control.
+        /// B_Request control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Semester_Code;
+        protected global::System.Web.UI.WebControls.Button B_Request;
 
         /// <summary>
-        /// TB_Semester_Code control.
+        /// D_REQUEST control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Semester_Code;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_REQUEST;
 
         /// <summary>
-        /// L_Expected_Graduation_Date control.
+        /// asm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Expected_Graduation_Date;
+        protected global::System.Web.UI.ScriptManager asm;
 
         /// <summary>
-        /// TB_Expected_Graduation_Date control.
+        /// C_Course control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Expected_Graduation_Date;
+        protected global::System.Web.UI.WebControls.CheckBox C_Course;
 
         /// <summary>
-        /// L_Semester_Credit_Hours control.
+        /// C_Course_MutuallyExclusiveCheckBoxExtender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Semester_Credit_Hours;
+        protected global::AjaxControlToolkit.MutuallyExclusiveCheckBoxExtender C_Course_MutuallyExclusiveCheckBoxExtender;
 
         /// <summary>
-        /// TB_Semester_Credit_Hours control.
+        /// SR_CID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Semester_Credit_Hours;
+        protected global::System.Web.UI.WebControls.TextBox SR_CID;
 
         /// <summary>
-        /// L_Student_ID control.
+        /// C_Credit_Hours control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Student_ID;
+        protected global::System.Web.UI.WebControls.CheckBox C_Credit_Hours;
 
         /// <summary>
-        /// TB_Student_ID control.
+        /// C_Credit_Hours_MutuallyExclusiveCheckBoxExtender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Student_ID;
+        protected global::AjaxControlToolkit.MutuallyExclusiveCheckBoxExtender C_Credit_Hours_MutuallyExclusiveCheckBoxExtender;
 
         /// <summary>
-        /// B_Gradplan_Insert_Cancel control.
+        /// SR_CH control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Gradplan_Insert_Cancel;
+        protected global::System.Web.UI.WebControls.TextBox SR_CH;
 
         /// <summary>
-        /// B_Gradplan_Insert_Confirm control.
+        /// SR_Comment control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Gradplan_Insert_Confirm;
+        protected global::System.Web.UI.WebControls.TextBox SR_Comment;
 
         /// <summary>
-        /// L_Gradplan_Insert_Out control.
+        /// B_R_cancel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Gradplan_Insert_Out;
+        protected global::System.Web.UI.WebControls.Button B_R_cancel;
 
         /// <summary>
-        /// B_A_D_Insert_Course control.
+        /// B_R_confirm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_A_D_Insert_Course;
+        protected global::System.Web.UI.WebControls.Button B_R_confirm;
 
         /// <summary>
-        /// D_Insert_Course control.
+        /// R2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_Insert_Course;
+        protected global::System.Web.UI.WebControls.Label R2;
 
         /// <summary>
-        /// L_Student_ID2 control.
+        /// B_ViewGP control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Student_ID2;
+        protected global::System.Web.UI.WebControls.Button B_ViewGP;
 
         /// <summary>
-        /// TB_Student_ID2 control.
+        /// D_GP control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Student_ID2;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_GP;
 
         /// <summary>
-        /// L_Semester_Code2 control.
+        /// R4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Semester_Code2;
+        protected global::System.Web.UI.WebControls.Label R4;
 
         /// <summary>
-        /// TB_Semester_Code2 control.
+        /// B_GP_Clear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Semester_Code2;
+        protected global::System.Web.UI.WebControls.Button B_GP_Clear;
 
         /// <summary>
-        /// L_Course_Name control.
+        /// B_View_Unpaid_Installment control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Course_Name;
+        protected global::System.Web.UI.WebControls.Button B_View_Unpaid_Installment;
 
         /// <summary>
-        /// TB_Course_Name control.
+        /// R5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Course_Name;
+        protected global::System.Web.UI.WebControls.Label R5;
 
         /// <summary>
-        /// B_Insert_Course_Cancel control.
+        /// D_Unpaid_Installment control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Insert_Course_Cancel;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_Unpaid_Installment;
 
         /// <summary>
-        /// B_Insert_Course_Confirm control.
+        /// B_Unpaid_Installment_Clear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Insert_Course_Confirm;
+        protected global::System.Web.UI.WebControls.Button B_Unpaid_Installment_Clear;
 
         /// <summary>
-        /// L_Insert_Course_Out control.
+        /// B_View_Course_Exam control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Insert_Course_Out;
+        protected global::System.Web.UI.WebControls.Button B_View_Course_Exam;
 
         /// <summary>
-        /// B_A_D_Update_Expected_Graduation_Date control.
+        /// R6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_A_D_Update_Expected_Graduation_Date;
+        protected global::System.Web.UI.WebControls.Label R6;
 
         /// <summary>
-        /// D_Update_Expected_Graduation_Date control.
+        /// D_View_Course_Exam control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_Update_Expected_Graduation_Date;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_View_Course_Exam;
 
         /// <summary>
-        /// L_Updated_Graduation_Date control.
+        /// B_View_Course_Exam_Clear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Updated_Graduation_Date;
+        protected global::System.Web.UI.WebControls.Button B_View_Course_Exam_Clear;
 
         /// <summary>
-        /// TB_Updated_Graduation_Date control.
+        /// B_First_Makeup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Updated_Graduation_Date;
+        protected global::System.Web.UI.WebControls.Button B_First_Makeup;
 
         /// <summary>
-        /// L_Student_ID3 control.
+        /// D_First_Makeup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Student_ID3;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_First_Makeup;
 
         /// <summary>
-        /// TB_Student_ID3 control.
+        /// T_Course_ID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Student_ID3;
+        protected global::System.Web.UI.WebControls.TextBox T_Course_ID;
 
         /// <summary>
-        /// B_Update_Expected_Graduation_Date_Cancel control.
+        /// R7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Update_Expected_Graduation_Date_Cancel;
+        protected global::System.Web.UI.WebControls.Label R7;
 
         /// <summary>
-        /// B_Update_Expected_Graduation_Date_Confirm control.
+        /// B_First_Makeup_Clear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Update_Expected_Graduation_Date_Confirm;
+        protected global::System.Web.UI.WebControls.Button B_First_Makeup_Clear;
 
         /// <summary>
-        /// L_Update_Expected_Graduation_Date_Out control.
+        /// B_First_Makeup_Confirm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Update_Expected_Graduation_Date_Out;
+        protected global::System.Web.UI.WebControls.Button B_First_Makeup_Confirm;
 
         /// <summary>
-        /// B_A_D_Delete_Course_Graduation_Plan control.
+        /// B_Second_Makeup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_A_D_Delete_Course_Graduation_Plan;
+        protected global::System.Web.UI.WebControls.Button B_Second_Makeup;
 
         /// <summary>
-        /// D_Delete_Course_Graduation_Plan control.
+        /// D_Second_Makeup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_Delete_Course_Graduation_Plan;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_Second_Makeup;
 
         /// <summary>
-        /// L_Student_ID4 control.
+        /// T_Course_ID2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Student_ID4;
+        protected global::System.Web.UI.WebControls.TextBox T_Course_ID2;
 
         /// <summary>
-        /// TB_Student_ID4 control.
+        /// R8 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Student_ID4;
+        protected global::System.Web.UI.WebControls.Label R8;
 
         /// <summary>
-        /// L_Semester_Code3 control.
+        /// B_Second_Makeup_Clear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Semester_Code3;
+        protected global::System.Web.UI.WebControls.Button B_Second_Makeup_Clear;
 
         /// <summary>
-        /// TB_Semester_Code3 control.
+        /// B_Second_Makeup_Confirm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Semester_Code3;
+        protected global::System.Web.UI.WebControls.Button B_Second_Makeup_Confirm;
 
         /// <summary>
-        /// L_Course_ID control.
+        /// B_View_Course_Slot control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Course_ID;
+        protected global::System.Web.UI.WebControls.Button B_View_Course_Slot;
 
         /// <summary>
-        /// TB_Course_ID control.
+        /// R9 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Course_ID;
+        protected global::System.Web.UI.WebControls.Label R9;
 
         /// <summary>
-        /// B_Delete_Course_Graduation_Plan_Cancel control.
+        /// D_View_Course_Slot control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Delete_Course_Graduation_Plan_Cancel;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_View_Course_Slot;
 
         /// <summary>
-        /// B_Delete_Course_Graduation_Plan_Confirm control.
+        /// B_View_Course_Slot_Clear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Delete_Course_Graduation_Plan_Confirm;
+        protected global::System.Web.UI.WebControls.Button B_View_Course_Slot_Clear;
 
         /// <summary>
-        /// L_Delete_Course_Graduation_Plan_Out control.
+        /// B_View_Course_Slot2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Delete_Course_Graduation_Plan_Out;
+        protected global::System.Web.UI.WebControls.Button B_View_Course_Slot2;
 
         /// <summary>
-        /// B_A_D_View_All_Students_Major_Courses control.
+        /// R10 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_A_D_View_All_Students_Major_Courses;
+        protected global::System.Web.UI.WebControls.Label R10;
 
         /// <summary>
-        /// D_View_All_Students_Major_Courses control.
+        /// D_View_Course_Slot2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_View_All_Students_Major_Courses;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_View_Course_Slot2;
 
         /// <summary>
-        /// L_Major control.
+        /// T_VCS_CID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Major;
+        protected global::System.Web.UI.WebControls.TextBox T_VCS_CID;
 
         /// <summary>
-        /// TB_Major control.
+        /// T_VCS_IID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Major;
+        protected global::System.Web.UI.WebControls.TextBox T_VCS_IID;
 
         /// <summary>
-        /// B_View_All_Students_Major_Courses_Cancel control.
+        /// B_View_Course_Slot2_Clear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_View_All_Students_Major_Courses_Cancel;
+        protected global::System.Web.UI.WebControls.Button B_View_Course_Slot2_Clear;
 
         /// <summary>
-        /// B_View_All_Students_Major_Courses_Confirm control.
+        /// B_View_Course_Slot2_Confirm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_View_All_Students_Major_Courses_Confirm;
+        protected global::System.Web.UI.WebControls.Button B_View_Course_Slot2_Confirm;
 
         /// <summary>
-        /// D_View_All_Students_Major_Courses_Students control.
+        /// B_Choose_Instuctor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_View_All_Students_Major_Courses_Students;
+        protected global::System.Web.UI.WebControls.Button B_Choose_Instuctor;
 
         /// <summary>
-        /// L_View_All_Students_Major_Courses control.
+        /// R11 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_View_All_Students_Major_Courses;
+        protected global::System.Web.UI.WebControls.Label R11;
 
         /// <summary>
-        /// B_View_All_Students_Major_Courses_Clear control.
+        /// D_Choose_Instuctor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_View_All_Students_Major_Courses_Clear;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_Choose_Instuctor;
 
         /// <summary>
-        /// B_A_D_View_All_Requests control.
+        /// T_C_ID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_A_D_View_All_Requests;
+        protected global::System.Web.UI.WebControls.TextBox T_C_ID;
 
         /// <summary>
-        /// D_View_All_Requests control.
+        /// T_I_ID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_View_All_Requests;
+        protected global::System.Web.UI.WebControls.TextBox T_I_ID;
 
         /// <summary>
-        /// B_View_All_Requests_Cancel control.
+        /// B_Choose_Instuctor_Clear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_View_All_Requests_Cancel;
+        protected global::System.Web.UI.WebControls.Button B_Choose_Instuctor_Clear;
 
         /// <summary>
-        /// B_View_All_Requests control.
+        /// B_Choose_Instuctor_Confirm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_View_All_Requests;
+        protected global::System.Web.UI.WebControls.Button B_Choose_Instuctor_Confirm;
 
         /// <summary>
-        /// B_View_Pending_Requests control.
+        /// B_View_Course_Prerequisites control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_View_Pending_Requests;
+        protected global::System.Web.UI.WebControls.Button B_View_Course_Prerequisites;
 
         /// <summary>
-        /// T_Requests control.
+        /// D_View_Course_Prerequisites control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table T_Requests;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_View_Course_Prerequisites;
 
         /// <summary>
-        /// B_View_Requests_Clear control.
+        /// R12 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_View_Requests_Clear;
+        protected global::System.Web.UI.WebControls.Label R12;
 
         /// <summary>
-        /// D_Update_Request control.
+        /// B_View_Course_Prerequisites_Clear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_Update_Request;
+        protected global::System.Web.UI.WebControls.Button B_View_Course_Prerequisites_Clear;
 
         /// <summary>
-        /// L_Request_ID control.
+        /// S_OC control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Request_ID;
+        protected global::System.Web.UI.WebControls.Button S_OC;
 
         /// <summary>
-        /// TB_Request_ID control.
+        /// S_AC control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TB_Request_ID;
+        protected global::System.Web.UI.WebControls.Button S_AC;
 
         /// <summary>
-        /// B_Update control.
+        /// S_RC control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button B_Update;
+        protected global::System.Web.UI.WebControls.Button S_RC;
 
         /// <summary>
-        /// L_Update_Out control.
+        /// S_MC control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label L_Update_Out;
+        protected global::System.Web.UI.WebControls.Button S_MC;
+
+        /// <summary>
+        /// R3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label R3;
+
+        /// <summary>
+        /// D_Course control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl D_Course;
+
+        /// <summary>
+        /// B_C_Clear control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button B_C_Clear;
     }
 }

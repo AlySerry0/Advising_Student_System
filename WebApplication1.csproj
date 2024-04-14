@@ -44,6 +44,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -80,17 +83,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Admin_Dashboard.aspx" />
+    <Content Include="Admin\Admin_Homepage.aspx" />
     <Content Include="Advisor\Advisor_Dashboard.aspx" />
     <Content Include="Advisor\Advisor_Homepage.aspx" />
     <Content Include="Advisor\Advisor_Login.aspx" />
     <Content Include="DB_M2_Solution --Upload.sql" />
     <Content Include="Advisor\Advisor_Register.aspx" />
-    <Content Include="Student\WebForm1.aspx" />
-    <Content Include="Student\WebForm2.aspx" />
-    <Content Include="Student\WebForm3.aspx" />
+    <Content Include="Homepage.aspx" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Student\Student_Dashboard.aspx" />
+    <Content Include="Student\Student_Homepage.aspx" />
+    <Content Include="Student\Student_Login.aspx" />
+    <Content Include="Student\Student_Register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Admin_Dashboard.aspx.cs">
+      <DependentUpon>Admin_Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Dashboard.aspx.designer.cs">
+      <DependentUpon>Admin_Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_Homepage.aspx.cs">
+      <DependentUpon>Admin_Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Homepage.aspx.designer.cs">
+      <DependentUpon>Admin_Homepage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Advisor\Advisor_Dashboard.aspx.cs">
       <DependentUpon>Advisor_Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -119,27 +142,41 @@
     <Compile Include="Advisor\Advisor_Homepage.aspx.designer.cs">
       <DependentUpon>Advisor_Homepage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Student\Student_Dashboard.aspx.cs">
+      <DependentUpon>Student_Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Student\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Student\Student_Dashboard.aspx.designer.cs">
+      <DependentUpon>Student_Dashboard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Student\WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="Student\Student_Homepage.aspx.cs">
+      <DependentUpon>Student_Homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Student\WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="Student\Student_Homepage.aspx.designer.cs">
+      <DependentUpon>Student_Homepage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Student\WebForm3.aspx.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="Student\Student_Login.aspx.cs">
+      <DependentUpon>Student_Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Student\WebForm3.aspx.designer.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="Student\Student_Login.aspx.designer.cs">
+      <DependentUpon>Student_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Student_Register.aspx.cs">
+      <DependentUpon>Student_Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student\Student_Register.aspx.designer.cs">
+      <DependentUpon>Student_Register.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

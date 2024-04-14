@@ -8,13 +8,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Button ID="B_Advisor_Homepage_Register" runat="server" Text="Register" OnClick="B_Advisor_Homepage_Register_Click" />
+        <asp:Button ID="B_Back" runat="server" Width = "100px" Text="Back" OnClick="B_Back_Click"/>
+        <div style="vertical-align: middle; text-align: center">
+            <asp:Label ID="Label1" runat="server" Text="Accessed as Advisor."></asp:Label>
             <br />
-
-            <br />
-            &nbsp;&nbsp;
-            <asp:Button ID="B_Advisor_Homepage_Login" runat="server" Text="Login" OnClick="B_Advisor_Homepage_Login_Click" />
+            <asp:Button ID="B_Advisor_Homepage_Register" runat="server" Width="100px" Text="Register" OnClick="B_Advisor_Homepage_Register_Click" />
+            <br/>
+            <asp:Button ID="B_Advisor_Homepage_Login" runat="server" Width="100px" Text="Login" OnClick="B_Advisor_Homepage_Login_Click" />
         </div>
     </form>
 </body>

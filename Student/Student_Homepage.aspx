@@ -8,12 +8,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Button ID="B_Student_Homepage_Register" runat="server" Text="Register" OnClick="B_Student_Homepage_Register_Click" />
+        <asp:Button ID="B_Back" runat="server" Width = "100px" Text="Back" OnClick="B_Back_Click" />
+        <div style="vertical-align: middle; text-align: center">
+           <asp:Label ID="Label" runat="server" Text="Accessed as Student."></asp:Label>
+            <br />
+            <asp:Button ID="B_Student_Homepage_Register" runat="server" Width="100px" Text="Register" OnClick="B_Student_Homepage_Register_Click"/>
+            <br />
+            <asp:Button ID="B_Student_Homepage_Login" runat="server" Width="100px" Text="Login" OnClick="B_Student_Homepage_Login_Click"/>
         </div>
-        <p>
-            <asp:Button ID="B_Student_Homepage_Login" runat="server" Text="Login" OnClick="B_Student_Homepage_Login_Click" />
-        </p>
     </form>
 </body>
 </html>

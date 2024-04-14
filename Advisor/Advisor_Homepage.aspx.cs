@@ -18,12 +18,14 @@ namespace WebApplication1
 
             }
         }
-
+        protected void B_Back_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Homepage.aspx");
+        }
         protected void B_Advisor_Homepage_Register_Click(object sender, EventArgs e)
         {
             Response.Redirect("Advisor_Register.aspx");
         }
-
         protected void B_Advisor_Homepage_Login_Click(object sender, EventArgs e)
         {
             Response.Redirect("Advisor_Login.aspx");

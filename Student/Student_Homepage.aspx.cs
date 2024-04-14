@@ -18,11 +18,14 @@ namespace WebApplication1.Student
 
             }
         }
+        protected void B_Back_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Homepage.aspx");
+        }
         protected void B_Student_Homepage_Register_Click(object sender, EventArgs e)
         {
             Response.Redirect("Student_Register.aspx");
         }
-
         protected void B_Student_Homepage_Login_Click(object sender, EventArgs e)
         {
             Response.Redirect("Student_Login.aspx");
