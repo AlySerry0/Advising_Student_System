@@ -20,7 +20,8 @@ password varchar(40) not null
 -----------------------Student Table--------------------------------------
 
      Create Table Student (
-     student_id int primary Key Identity(1,1), 
+     student_id int primary Key Identity(1,1),,
+ 
      f_name Varchar(40),
      l_name Varchar(40),
      password Varchar(40), 
